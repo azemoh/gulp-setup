@@ -32,10 +32,11 @@ gulp.task('browser-sync', ['sass', 'scripts'], function () {
 
 
 // Scripts task: Compile TypeScript files to js
-gulp.task('scripts', ['reload'], function () {
+gulp.task('scripts', function () {
   return gulp.src(paths.scripts + '*.ts')
     .pipe(ts())
-    .pipe(gulp.dest(paths.js));
+    .pipe(gulp.dest(paths.js))
+    .pipe(browserSync.reload({ stream: true })); // Reload browser
 });
 
 
