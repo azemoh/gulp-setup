@@ -1,0 +1,16 @@
+{
+  "name": "gulp-setup",
+  "version": "1.0.0",
+  "description": "A simple gulp setup",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "gulp",
+    "workflow",
+    "automation"
+  ],
+  "author": "Joahua Azemoh",
+  "license": "MIT"
+}
