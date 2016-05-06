@@ -6,17 +6,25 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/azemoh/gulp-setup.git"
+  },
   "keywords": [
     "gulp",
     "workflow",
     "automation"
   ],
-  "author": "Joahua Azemoh",
+  "author": "Joshua Azemoh",
   "license": "MIT",
   "devDependencies": {
     "browser-sync": "^2.12.5",
     "gulp": "^3.9.1",
     "gulp-sass": "^2.3.1",
     "gulp-typescript": "^2.13.1"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/azemoh/gulp-setup/issues"
+  },
+  "homepage": "https://github.com/azemoh/gulp-setup#readme"
 }
